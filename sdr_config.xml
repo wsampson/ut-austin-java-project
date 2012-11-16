@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<sdr_config>
+
+	<online_sources>
+	
+		<search_engine>
+			<name>NSDL</name>
+			<url>http://nsdl.org/search/</url>
+			<status>active</status>
+			<description>The National Science Digital Library (NSDL) is an online resource created by the National Science Foundation to provide organized access to high quality resources and tolls that support innovations in teaching and learning at all levels of science, technology, engineering, and mathematics (STEM) education.</description>
+		</search_engine>
+		
+		<search_engine>
+			<name>Scitopia</name>
+			<url>http://www.scitopia.org/scitopia/resultList/</url>
+			<status>active</status>
+			<description>A federated vertical search portal created through the collaboration of 21 leading science and technology societies.</description>
+		</search_engine>
+		
+		<search_engine>
+			<name>Science in Yahoo</name>
+			<url>http://search.yahoo.com/search/dir?ei=UTF-8&amp;y=d&amp;r=Science&amp;p=</url>
+			<status>active</status>
+			<description>Science directory in the Yahoo directory</description>
+		</search_engine>
+	</online_sources>
+</sdr_config>
