@@ -17,20 +17,20 @@ public class BasePanel extends JPanel implements ActionListener, KeyListener
 	                          negativeCountLabel;
 	private JTextField        queryField;
 	private JButton           goButton,
-			                  clearButton,
-					   	      saveButton,
-					 	      resetButton,
-						      exitButton,
-						      printButton;
+			          clearButton,
+				  saveButton,
+				  resetButton,
+				  exitButton,
+				  printButton;
 	private JRadioButton      allResultsButton,
-    					      positiveResultsButton,
-    					      neutralResultsButton,
-    					      negativeResultsButton;
+    				  positiveResultsButton,
+    				  neutralResultsButton,
+    				  negativeResultsButton;
 	private JPanel            resultsPanel;
 	private JPanel            resultsContainerPanel,
-						      positiveCountPanel,
-						      neutralCountPanel,
-						      negativeCountPanel;
+				  positiveCountPanel,
+				  neutralCountPanel,
+				  negativeCountPanel;
 	private JScrollPane       resultsScroll;
 
 	Color greenColor = new Color(0,   153, 51);
@@ -115,8 +115,8 @@ public class BasePanel extends JPanel implements ActionListener, KeyListener
 		
 		// create panel scroll pane container
 		resultsScroll = new JScrollPane(resultsPanel, 
-										ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, 
-										ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+						ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, 
+						ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		resultsScroll.setPreferredSize(new Dimension(975, 470));
 		
 		// add resultsScroll
@@ -377,22 +377,6 @@ public class BasePanel extends JPanel implements ActionListener, KeyListener
 		feedback.setText(message);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // TEST: read XML file, print output
 //new ReadXMLFile();
