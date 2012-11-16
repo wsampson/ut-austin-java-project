@@ -12,11 +12,11 @@ public class PreferencePanel extends JPanel implements ActionListener
 	private static final long serialVersionUID = 1L;
 	
 	private  JButton    activateEngine,
-						deactivateEngine,
-						addEngine,
-						removeEngine,
-						savePreferences,
-						cancelPreferences;
+			    deactivateEngine,
+			    addEngine,
+			    removeEngine,
+			    savePreferences,
+			    cancelPreferences;
 	private  JTextArea  activeEngines;
 	private  JTextArea  inactiveEngines;
 
@@ -30,9 +30,9 @@ public class PreferencePanel extends JPanel implements ActionListener
 		activeEngines.setLineWrap(true);
 		activeEngines.setWrapStyleWord(true);
 		activeEngines.setEditable(false);
-		JScrollPane activeResultsScroll = new       JScrollPane(activeEngines, 
-													ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, 
-													ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		JScrollPane activeResultsScroll = new JScrollPane(activeEngines, 
+						      ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, 
+						      ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		activeEnginesPanel.add(activeResultsScroll);
 		add(activeResultsScroll,  getConstraints(0, 0, 1, 1, GridBagConstraints.NORTH));
 		
@@ -42,9 +42,9 @@ public class PreferencePanel extends JPanel implements ActionListener
 		inactiveEngines.setLineWrap(true);
 		inactiveEngines.setEditable(false);
 		inactiveEngines.setWrapStyleWord(true);
-		JScrollPane inactiveResultsScroll = new     JScrollPane(inactiveEngines, 
-													ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, 
-													ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		JScrollPane inactiveResultsScroll = new JScrollPane(inactiveEngines, 
+							ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, 
+							ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 		inactiveEnginesPanel.add(inactiveResultsScroll);
 		add(inactiveResultsScroll,  getConstraints(2, 0, 1, 1, GridBagConstraints.SOUTH));
 		
