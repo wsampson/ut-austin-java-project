@@ -65,9 +65,9 @@ public class ReadXMLFile {
 		
 		for (int i = 0; i <        searchEngineList.size(); i++){
 			printEngines += "\n" + 
-								   searchEngineList.get(i).getName()        + "\n" + 
+						   searchEngineList.get(i).getName()        + "\n" + 
 			       		           searchEngineList.get(i).getDescription() + "\n" +
-						           searchEngineList.get(i).getURL()         + "\n";	
+						   searchEngineList.get(i).getURL()         + "\n";	
 		}
 		return printEngines;
 	}
